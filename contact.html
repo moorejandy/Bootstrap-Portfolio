@@ -8,21 +8,25 @@
   <title>Bootstrap Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link rel="stylesheet" href="./style.css">
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
   <!-- Start Nav -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">Andy Moore</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">Andy Moore</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">About</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav text-right float-right pr-3">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./portfolio.html">Portfolio</a>
@@ -33,42 +37,27 @@
       </ul>
     </div>
   </nav>
+  
 
   <div class="container">
-    <div class="content">
+      <div class="page-header">
+        <h1>Want to Keep in Touch</h1>
+      </div>
       <div class="row">
-        <div class="col-md-8">
-          <div class="page-header">
-            <h1>Contact</h1>
-            <form>
-
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">First Name</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1"
-                  placeholder="Enter your first name here.." rows="1"></textarea>
-              </div>
-
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Last Name</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1"
-                  placeholder="Enter your last name here.." rows="1"></textarea>
-              </div>
-
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1"
-                  placeholder="Please leave a detailed message here.." rows="3"></textarea>
-              </div>
-
-            </form>
-          </div>
+        <div class="col-md-3">
+          <img src="https://moorejandy.files.wordpress.com/2019/10/img_2651.jpeg?w=450&h=600" alt="Placeholder"
+            class="img-thumbnail">
         </div>
-        <div>
+        <div class="col-md-9 contact">
+            <p>Send an email. &ensp; <a href="mailto:moorejandy@gmail.com"><i class="fas fa-envelope-square" style="font-size: 40px;"></i></a></p> 
+            <p>Connect with me on LinkedIn: &ensp; <a href="https://www.linkedin.com/in/andy-moore-3449734a/"><i class="fab fa-linkedin" style="font-size: 40px;"></i></a></p>
+            <p>Follow me on Twitter: &ensp; <a href="https://twitter.com/moorejandy1"><i class="fab fa-twitter-square" style="font-size: 40px;"></i></a></p>
+            <p>Follow me on Instagram: &ensp; <a href="https://www.instagram.com/moorejandy/"><i class="fab fa-instagram" style="font-size: 40px;"></i></a></p>
+            <p>Check out my blog: &ensp; <a href="https://andyjmoore.com/"><i class="fab fa-wordpress"style="font-size: 40px;"></i></a></p>
+          </p>
         </div>
       </div>
     </div>
-  </div>
-
   <footer>
     <p>This is my first website! Thanks for stopping by.</p>
   </footer>

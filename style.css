@@ -1,13 +1,23 @@
 
 
 .container {
-    border-top: solid 2px;
-    margin-top: 8%;
+    margin-top: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.page-header {
+  padding: 5px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
 .content {
     width: 100%;
-    margin-left: 20%;
+    margin-left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 footer {
     background-color: slategray;
@@ -25,3 +35,13 @@ footer {
   footer p {
     line-height: 20px;
   }
+
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+.contact p {
+padding: 2px;
+line-height: 10px;
+}

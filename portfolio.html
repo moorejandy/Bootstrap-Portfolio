@@ -9,20 +9,24 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
   <!-- Start Nav -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">Andy Moore</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">Andy Moore</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">About</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav text-right float-right pr-3">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./portfolio.html">Portfolio</a>
@@ -35,48 +39,60 @@
   </nav>
   <!-- End Nav -->
   <div class="container">
+    <div class="page-header">
+        <h1>Interested in My Work?</h1>
+        <h3>Look below for brief descriptions and links to my projects.</h3>
+    </div>
     <div class="content">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="page-header">
-            <h1>Portfolio</h1>
-          </div>
-
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
               <div class="card" style="width: 18rem;">
                 <img
-                  src="https://images.unsplash.com/photo-1570171278960-d6c2b316f3b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                  src="https://nrs.harvard.edu/urn-3:HUAM:DDC231456_dynmc"
                   class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Regal Art Search App</h5>
+                  <p class="card-text">This app utilizes the Harvard Art Museum and the Digital Public
+                    Libray of America API's to allow you to search for view and research your favorite 
+                    paintings and artists.
+                  </p>
+                  <a href="https://moorejandy.github.io/Team-Three/" class="btn btn-primary">Link Here</a>
                 </div>
               </div>
             </div>
 
 
-            <div class="col-md-6">
+            <div class="col-md-4">
               <div class="card" style="width: 18rem;">
                 <img
-                  src="https://images.unsplash.com/photo-1569261995036-70d0dd50be24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+                  src="https://media2.giphy.com/media/mzJMYiKAHF1aE/200_s.gif?cid=e3b0c442dc2bac2dcdd068b4fb2dda7e00acccefcb33b1f5&rid=200_s.gif"
                   class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">GifTastic</h5>
+                  <p class="card-text">This app allows you to search for gifs by topic.</p>
+                  <a href="https://moorejandy.github.io/GifTastic-HW/" class="btn btn-primary">Link Here</a>
                 </div>
               </div>
             </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    src="https://moorejandy.github.io/unit-4-game/assets/images/crystal-576581_1280.png"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Crystal Collector</h5>
+                    <p class="card-text">This is a simple game where the user has to select crystals of unkown values
+                      to and try to get them to add up to the random computer generated number displayed on the screen.
+                    </p>
+                    <a href="https://moorejandy.github.io/unit-4-game/" class="btn btn-primary">Link Here</a>
+                  </div>
+                </div>
+              </div>
 
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
   <footer>
     <p>This is my first website! Thanks for stopping by.</p>
