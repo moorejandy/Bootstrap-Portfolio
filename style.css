@@ -16,6 +16,7 @@
     width: 100%;
     margin-left: 10%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
 }
 
 
@@ -30,6 +31,7 @@ footer {
     bottom: 0;
     left: 0;
     text-align: center;
+    margin-top: 50px;
   }
 
   footer p {
@@ -41,7 +43,12 @@ footer {
     width: 200px;
   }
 
+
 .contact p {
 padding: 2px;
 line-height: 10px;
+}
+
+.card {
+  margin-bottom: 20px;
 }
